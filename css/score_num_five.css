@@ -1,0 +1,84 @@
+.score_num{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0);
+	/*border: 1px solid rgba(0,0,0,0);*/
+	margin: 0 auto;
+	text-align: center;
+}
+.score_num ul{
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	margin: 0 auto;
+	display: inline-block;
+	width: 15%;
+	height: 90px;
+	margin: 20px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	border: 5px solid white;
+	/*line-height: 40px;*/
+	border-radius: 10px;
+	color: white;
+	font-weight: bolder;
+	font-size: 16px;
+	-moz-user-select: none; 
+-webkit-user-select: none; 
+-ms-user-select: none; 
+-khtml-user-select: none; 
+user-select: none; 
+/*鼠标变小手*/
+cursor:pointer;
+/*margin-bottom: 50px;*/
+}
+
+.score_num div{
+	margin: 0 auto;
+	color: white;
+	font-weight: bolder;
+	font-size: 36px;
+	-moz-user-select: none; 
+-webkit-user-select: none; 
+-ms-user-select: none; 
+-khtml-user-select: none; 
+user-select: none; 
+/*鼠标变小手*/
+cursor:pointer;
+}
+
+.score_num ul li{
+	list-style-type: none;
+
+	color: white;
+	font-weight: bolder;
+	font-size: 40px;
+	-moz-user-select: none; 
+-webkit-user-select: none; 
+-ms-user-select: none; 
+-khtml-user-select: none; 
+user-select: none; 
+/*鼠标变小手*/
+cursor:pointer;
+}
+.score_num ul li:hover{
+	list-style-type: none;
+	
+	
+	color: ghostwhite;
+	font-weight: bolder;
+	/*取消复制*/
+	-moz-user-select: none; 
+-webkit-user-select: none; 
+-ms-user-select: none; 
+-khtml-user-select: none; 
+user-select: none; 
+/*鼠标变小手*/
+cursor:pointer;
+}
+.score_num .team_one{
+	background-color: rgba(0,50,0,0.7);
+}
+/*.team_two{
+	background-color: rgba(0,0,0,0.8);
+}*/
